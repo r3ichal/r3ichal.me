@@ -7,3 +7,7 @@
 ![Code Size](https://img.shields.io/github/languages/code-size/MaxPopsuy/r3ichal.me?style=for-the-badge&labelColor=222&color=purple)
 ![Language](https://img.shields.io/github/languages/top/MaxPopsuy/r3ichal.me?style=for-the-badge&labelColor=222&color=purple)
 [![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg?style=for-the-badge&labelColor=222)](https://github.com/MaxPopsuy/r3ichal/blob/master/LICENSE.md)
+
+## Quick info
+
+r3ichal.me - my personal website to show off my work and skills, made with react and love 🥰
