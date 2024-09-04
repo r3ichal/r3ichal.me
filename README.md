@@ -1,58 +1,9 @@
-# React starter pack
+# r3ichal.me
 
-#### First of all init the starter pack
+![Current version: beta-0.1.0](https://img.shields.io/badge/ver-B0.1.0-purple?style=for-the-badge&labelColor=222)
+![Date created: 30.08.24](https://img.shields.io/badge/date%20created-30.08.24-purple?style=for-the-badge&labelColor=222)
+![Last Commit](https://img.shields.io/github/last-commit/MaxPopsuy/r3ichal.me/master?style=for-the-badge&labelColor=222&color=purple)
 
-# ```npm init```
-
-#### Next, install all packages
-
-# ```npm i```
-# ```npm i -D```
-
-#### Done, now you can start your react project
-
-# Starter pack includes:
-
-- Latest version of ```React```
-- ```Material UI```
-- ```Redux``` and ```Redux Toolkit``` with some test stuff
-- ```Axios (with config file)```
-- ```Classnames```
-- ```Pnotify```
-- ```React router (with config files: config/router.js and utils/constants.js)```
-- ```Create React App Configuration Override``` [(CRACO)](https://craco.js.org/)
-  - ```craco.config.js```
-  - Custom ```eslint``` 
-  - Custom ```aliases```: 
-    - @components
-    - @store
-    - @utils
-    - @pages
-    - @scss
-    - @images
-    - @public
-    - @src
-    - @root
-    - @config
-
-You can access the aliases by using that code:
-
-```javascript
-  import cool from "@components/cool.js"
-```
-
-# Starter pack commands:
-
-# ```npm start```
-
-- ### Start project
-
-# ```npm run build```
-
-- ### Build project
-
-# ```npm run deploy```
-
-- ### Deploy project on netlify
-
-# ```May the React Force be with you 🥰```
+![Code Size](https://img.shields.io/github/languages/code-size/MaxPopsuy/r3ichal.me?style=for-the-badge&labelColor=222&color=purple)
+![Language](https://img.shields.io/github/languages/top/MaxPopsuy/r3ichal.me?style=for-the-badge&labelColor=222&color=purple)
+[![License: MIT](https://img.shields.io/badge/License-MIT-purple.svg?style=for-the-badge&labelColor=222)](https://github.com/MaxPopsuy/r3ichal/blob/master/LICENSE.md)
