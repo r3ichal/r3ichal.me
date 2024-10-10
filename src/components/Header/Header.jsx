@@ -14,8 +14,14 @@ const Header = () => {
         <Navlink url={""} className={styles.navLink}>
           Home
         </Navlink>
+        <Navlink url={"about"} className={styles.navLink}>
+          About
+        </Navlink>
         <Navlink url={"projects"} className={styles.navLink}>
           Projects
+        </Navlink>
+        <Navlink url={"contact"} className={styles.navLink}>
+          Contact
         </Navlink>
       </div>
     </header>
