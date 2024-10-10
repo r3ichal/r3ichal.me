@@ -7,11 +7,12 @@ import { PrivateRoute } from "@utils/PrivateRoute";
 import { PublicRoute } from "@utils/PublicRoute";
 import { routes } from "@config/router";
 import Header from "@components/Header/Header";
+import Footer from "@components/Footer/Footer";
 
 const App = () => {
   return (
     <>
-    <Header/>
+      <Header />
       <Routes>
         {routes.map(({ Component, isPrivate, isPublicOnly, ...route }) => (
           <Route
@@ -30,6 +31,7 @@ const App = () => {
           />
         ))}
       </Routes>
+      <Footer />
       {/* <h1
         onClick={() => {
           alert("Happy hacking! :)");
