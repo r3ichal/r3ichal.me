@@ -45,42 +45,46 @@ const Contact = () => {
           <img className={styles.card__image} src={pfp} alt="literally me" />
           <ul className={styles.card__links}>
             <li className={styles.card__item}>
-              <button className={styles.card__button}>
-                <a
-                  className={styles.card__link}
-                  target="_blank"
-                  href="https://t.me/r3ichal"
-                >
+              <a
+                className={styles.card__link}
+                target="_blank"
+                href="https://t.me/r3ichal"
+              >
+                <button className={styles.card__button}>
                   @r3ichal on Telegram
-                </a>
-              </button>
+                </button>
+              </a>
             </li>
             <li className={styles.card__item}>
-              <button className={styles.card__button}>
-                r3ichal on Discord
-              </button>
+              <a
+                className={styles.card__link}
+                target="_blank"
+                href="https://discord.com"
+              >
+                <button className={styles.card__button}>
+                  r3ichal on Discord
+                </button>
+              </a>
             </li>
             <li className={styles.card__item}>
-              <button className={styles.card__button}>
-                <a
-                  className={styles.card__link}
-                  target="_blank"
-                  href="mailto:r3ichal@gmail.com"
-                >
+              <a
+                className={styles.card__link}
+                target="_blank"
+                href="mailto:r3ichal@gmail.com"
+              >
+                <button className={styles.card__button}>
                   r3ichal@gmail.com
-                </a>
-              </button>
+                </button>
+              </a>
             </li>
             <li className={styles.card__item}>
-              <button className={styles.card__button}>
-                <a
-                  className={styles.card__link}
-                  target="_blank"
-                  href="https://github.com/r3ichal"
-                >
-                  github.com
-                </a>
-              </button>
+              <a
+                className={styles.card__link}
+                target="_blank"
+                href="https://github.com/r3ichal"
+              >
+                <button className={styles.card__button}>github.com</button>
+              </a>
             </li>
             <li className={styles.card__item}>
               <button className={styles.card__button} onClick={copyPhoneNumber}>
