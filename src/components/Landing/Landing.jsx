@@ -9,7 +9,7 @@ const Landing = () => {
         <em>[ree-chal]</em>
       </h1>
       <p className={styles.landing__description}>
-        I'm a FullStack Web/Software Developer <br/>
+        I'm a FullStack Developer / Software Engineer <br/>
         and a little philosopher...
       </p>
       <p className={styles.landing__description}>

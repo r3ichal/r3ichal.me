@@ -1,8 +1,9 @@
-@import "@scss/variables.scss"; // Importing variables
-@import "@scss/declarations.scss"; // Importing declarations
+@import "@scss/variables.scss";
+@import "@scss/declarations.scss";
 
 
 .landing {
+  height: 100vh;
   background-color:$background-secondary;
   color: $primary-white;
   padding: 50px 20px;
@@ -11,6 +12,13 @@
   font-weight: 300;
   flex: 1;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  min-height: 70vh;
+
 
   &__title {
     font-size: 36px;
